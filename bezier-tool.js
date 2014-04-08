@@ -502,13 +502,11 @@ function BezierTool(canvas) {
 	
 	/* Registers keyboard events. */
 	window.addEventListener("keyup", function(event) {
-		if (event.which != null) {
-			if (event.which == DELETE_POINT_KEY_CODE) {
-				if (selectedPoint != null) {
-					scope.bezierSpline.removePoint(selectedPoint);
-					selectedPoint = null;
-				}
-			}
+		if (event.which != null
+				&& event.which == DELETE_POINT_KEY_CODE
+				&& selectedPoint != null) {
+			scope.bezierSpline.removePoint(selectedPoint);
+			selectedPoint = null;
 		}
 	});
 	
