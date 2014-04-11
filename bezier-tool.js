@@ -1,4 +1,5 @@
-/* The Bezier tool. It requires a canvas to draw things. */
+/* A simple Bézier tool. It requires a canvas to draw things.
+ * By Marcel Bruse, 2014. MIT licence. */
 function BezierTool(canvas) {
 
 	/* Reference to the requestAnimationFrame function. */
@@ -46,7 +47,7 @@ function BezierTool(canvas) {
 	var BEZIER_SPLINE_COLOR = "#444444";
 	var PROFILE_COLOR = "#fbc4ff";
 	var PROFILE_FILL_COLOR = "#fbeafc";
-	var DASH_SPACING = 4;
+	var DASH_SPACING = [4];
 
 	/* Key codes for keyboard events. */
 	var DELETE_POINT_KEY_CODE = 46;
