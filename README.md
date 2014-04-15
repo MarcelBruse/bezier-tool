@@ -23,6 +23,7 @@ Move single points around by dragging them with the mouse. While moving, snap th
 
 You can integrate the tool into your own application as follows. Download or clone the tool. Define a HTML5 canvas element within your document. The header of your document should include a reference to jQuery, since the tool relies on it, and a reference to the bezier-tool.js file.
 
+```html
 <html>
 <head>
     <script src="jquery.js" type="text/javascript"></script>
@@ -37,9 +38,11 @@ You can integrate the tool into your own application as follows. Download or clo
     <canvas id="bezier-canvas"></canvas>
 </body>
 </html>
+```
 
 The drawn path is implemented as a linked list. If you want to use the path for further processing, then you can access it like this:
 
+```javascript
 var bezierTool = new BezierTool(document.getElementById("bezier-canvas"));
 [...]
 var point = bezierTool.bezierSpline.calculatePath().firstPosition;
@@ -47,4 +50,4 @@ while (point != null) {
     alert(point.x + ", " + point.y);
     point = point.next;
 }
-
+```
