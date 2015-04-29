@@ -4,12 +4,14 @@ bezier-tool
 A simple tool that lets you draw paths with the help of cubic Bézier curves.
 
 
-=== Demo ===
+Demo
+----
 
 http://jsfiddle.net/4XDJF/1/
 
 
-=== Brower Support ===
+Brower Support
+--------------
 
 This tool has been tested to be functional with the following list of browsers:
 
@@ -17,7 +19,8 @@ This tool has been tested to be functional with the following list of browsers:
 - Chrome: 33
 
 
-=== Usage ===
+Usage
+-----
 
 Move single points around by dragging them with the mouse. While moving, snap the points to the displayed grid dots by holding the shift key. Every point of the path has at least one handle that lets you define smooth curves. Initially, the handles are identical with their respective points. Simply hold the control key and drag the handles out of the path points. Select a point and hit the delete key in order to remove the point from the path.
 
