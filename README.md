@@ -7,7 +7,7 @@ A simple tool that lets you draw paths with the help of cubic Bézier curves.
 Demo
 ----
 
-http://jsfiddle.net/4XDJF/1/
+http://upper64k.com/blog/articles/3/yet-another-bezier-tool#body
 
 
 Brower Support
