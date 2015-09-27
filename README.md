@@ -1,22 +1,22 @@
 bezier-tool
 ===========
 
-A simple tool that lets you draw paths with the help of cubic Bézier curves.
+A simple tool that lets you draw cubic Bézier curves.
 
 
 Demo
 ----
 
-http://upper64k.com/blog/articles/3/yet-another-bezier-tool#body
+http://upper64k.com/blog/articles/3/yet-another-bezier-tool
 
 
 Brower Support
 --------------
 
-This tool has been tested to be functional with the following list of browsers:
+This tool has been verfied to be functional with the following list of browsers:
 
-- Firefox: 28.0
-- Chrome: 33
+- Firefox: >= 28.0
+- Chrome: >= 33
 
 
 Usage
